@@ -12,7 +12,7 @@ int A = number("A");
 int B = number("B");
 
 int pow = 1;
-for(int i = 1; i <= B; i++)
+for(int i = 0; i < B; i++)
 {
     pow = pow * A;
 }
