@@ -33,5 +33,9 @@ class Program
         int N = Convert.ToInt32(Console.ReadLine());
         int[] array = CreateArray(N);
         WriteArray(array);
+        Console.Write(" -> ");
+        Console.Write("[");
+        WriteArray(array);
+        Console.Write("]");
     }
 }
